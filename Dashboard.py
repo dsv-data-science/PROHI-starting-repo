@@ -1,13 +1,21 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="PROHI Dashboard",
-    page_icon="👋",
+    page_title="PROHI Dashboard indiviual assigment 2 Max Altez Linhardt",
+    page_icon="👋💪💪💪",
 )
 
 # Sidebar configuration
 st.sidebar.image("./assets/project-logo.jpg",)
 st.sidebar.success("Select a tab above.")
+
+# code from Max
+import streamlit as st
+
+sentiment_mapping = ["one", "two", "three", "four", "five"]
+selected = st.feedback("stars")
+if selected is not None:
+    st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
 
 # # Page information
 
