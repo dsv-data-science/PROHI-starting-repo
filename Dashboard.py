@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="PROHI Dashboard indiviual assigment 2 Max Altez Linhardt",
-    page_icon="👋💪💪💪",
+    page_icon="👋",
 )
 
 # Sidebar configuration
@@ -10,8 +10,8 @@ st.sidebar.image("./assets/project-logo.jpg",)
 st.sidebar.success("Select a tab above.")
 
 # Sidebar configuration
-st.sidebar.success("About project APSoS")
-st.sidebar.image("./assets/tabelo.png", caption="Sepsis Prediction Dashboard Sketch", use_container_width=True)
+st.sidebar.success("About project APSoS (Alarm System Prevention of Sepsis)")
+st.sidebar.image("./assets/tabelo.png", caption="Dashboard Sketch", use_container_width=True)
 
 on = st.toggle("Do you want to read this?", value=True)
 if on:
