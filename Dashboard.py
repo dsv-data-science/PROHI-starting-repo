@@ -11,7 +11,7 @@ st.sidebar.success("Select a tab above.")
 
 # Sidebar configuration
 st.sidebar.success("About project APSoS")
-st.sidebar.image("./assets/tabelo.png", caption="Sepsis Prediction Dashboard Sketch", use_column_width=True)
+st.sidebar.image("./assets/tabelo.png", caption="Sepsis Prediction Dashboard Sketch", use_container_width=True)
 
 on = st.toggle("Do you want to read this?", value=True)
 if on:

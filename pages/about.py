@@ -8,4 +8,4 @@ Alerts appear as pop-ups in the EHR and as notifications on mobile devices staff
 A central feature is the sepsis risk score, showing the likelihood a patient will develop sepsis within 6 hours. Model explainability will be demonstrated through SHAP analysis, highlighting which patient features contribute most to risk scores and helping doctors trust the prediction. Evidence suggests AI-based tools can outperform physicians in early detection, increasing sensitivity by up to 32% while reducing false positives [9]. By warning staff early, the dashboard enables timely treatment, which is critical for survival in sepsis [4].
 """)
 
-st.image("./assets/Alert.png", caption="Figure (1): Prototype dashboard for sepsis prediction, showing patient data, vital signs, lab results, and a color-coded risk alert.", use_column_width=True)
+st.image("./assets/Alert.png", caption="Figure (1): Prototype dashboard for sepsis prediction, showing patient data, vital signs, lab results, and a color-coded risk alert.", use_container_width=True)
