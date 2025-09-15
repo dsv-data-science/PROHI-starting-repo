@@ -10,10 +10,9 @@ st.sidebar.image("./assets/project-logo.jpg",)
 st.sidebar.success("Select a tab above.")
 
 # Sidebar configuration
-st.sidebar.success("About project APSoS")   
+st.sidebar.success("About project APSoS")
+st.sidebar.image("./assets/tabelo.png", caption="Sepsis Prediction Dashboard Sketch", use_column_width=True)
 
-# # Page information
-import streamlit as st
 on = st.toggle("Do you want to read this?", value=True)
 if on:
     st.write("Let's go and read!")
