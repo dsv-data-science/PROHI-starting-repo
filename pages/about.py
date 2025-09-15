@@ -2,6 +2,7 @@ import streamlit as st
 
 st.title("Max Altez Linhardt")
 st.markdown("""
+### APSoS (Alarm System Prevention of Sepsis)
 The dashboard is an educational demonstration of a Clinical Decision Support tool (CDS) for early sepsis prediction in Intensive Care Unit (ICU) patients. 
 It functions as an add-on to Electronic Health Records (EHR), automatically collecting vital signs and laboratory results. 
 Using databases such as Medical Information Mart for Intensive Care (MIMIC-III), the system shows how predictive models can detect rising risk in real time. 
