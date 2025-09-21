@@ -1,21 +1,36 @@
-# PROHI Dashboard Example
+# Clinical Operations Dashboard
 
-**Author**: [Write your name here]
+**Author**: [Dharinisri]
 <!-- As main author, do not write anything in the line below.
 The collaborator will edit the line below in GitHub -->
-**Collaborator**:
 
-_Note that this file is written in **MarkDown** language. A reference is available here: <https://www.markdownguide.org/basic-syntax/>_
 
-_Here you can include images, like the logo from SU_
+Screenshots
 
-![Your dashboard](./assets/project-logo.jpg)
+### Dashboard View
+![Dashboard Screenshot](assets/dashboard.screenshot1.png)
+![Dashboard Screenshot](assets/dashboard.screenshot2.png)
+
+### About Page
+![About Page Screenshot](assets/about_screenshot.png)
 
 ## Introduction
 
-_This template project will contain a simple interactive web dashboard with Streamlit. Feel free to edit this document as desired_
+This project is a **Clinical Operations Dashboard** built with **Streamlit**.  
+It demonstrates how interactive dashboards can help visualize and monitor clinic-related data such as **appointments, waiting times, patient satisfaction, and operational patterns**.  
+
+The dashboard includes:  
+- Department selection (e.g., Pediatrics, General Practice).  
+- Filters for date range, maximum wait times, and weekdays.  
+- Key statistics (records, average wait times, satisfaction levels).  
+- Tabular display of filtered appointments.  
+- Visualizations of wait times and satisfaction trends.  
 
 ## System description
+The project consists of:  
+- `Dashboard.py`: the main dashboard file.  
+- `pages/About.py`: contains author information and a project summary.  
+- `assets/`: contains images and screenshots. 
 
 ### Installation of libraries
 
@@ -47,13 +62,10 @@ First, make sure that you are running Python from the environment. Check the ste
 ### Dependencies
 
 Tested on Python 3.12.7 with the following packages:
-  - Jupyter v1.1.1
+  
   - Streamlit v1.46.1
-  - Seaborn v0.13.2
-  - Plotly v6.2.0
-  - Scikit-Learn v1.7.0
-  - shap v0.48.0
+  
 
 ## Contributors
 
-_Add the project's authors, contact information, and links to websites or portfolios._
+Dharinisri Magudapathy Saravanakumar
