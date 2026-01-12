@@ -1,21 +1,28 @@
 # PROHI Dashboard Example
 
-**Author**: [Write your name here]
+**Author**: [Max Altez Linhardt]
 <!-- As main author, do not write anything in the line below.
 The collaborator will edit the line below in GitHub -->
-**Collaborator**:
+**Collaborator**: Harish Mohankumar
 
 _Note that this file is written in **MarkDown** language. A reference is available here: <https://www.markdownguide.org/basic-syntax/>_
 
 _Here you can include images, like the logo from SU_
 
 ![Your dashboard](./assets/project-logo.jpg)
+![Screenshot1](./screenshots/screenshot1.png)
+![Screenshot2](./screenshots/screenshot2.png)
+
 
 ## Introduction
 
-_This template project will contain a simple interactive web dashboard with Streamlit. Feel free to edit this document as desired_
+This project is a mini dashboard built in Streamlit for the course assignment Individual Task 2.  
 
 ## System description
+
+It contains two pages:  
+Dashboard: shows demo data with input widgets, a data table, and charts.  
+About: shows my name and a short project summary written in Markdown.  
 
 ### Installation of libraries
 

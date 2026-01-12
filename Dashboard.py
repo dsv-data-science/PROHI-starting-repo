@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="PROHI Dashboard",
+    page_title="PROHI Dashboard indiviual assigment 2 Max Altez Linhardt",
     page_icon="👋",
 )
 
@@ -9,7 +9,23 @@ st.set_page_config(
 st.sidebar.image("./assets/project-logo.jpg",)
 st.sidebar.success("Select a tab above.")
 
-# # Page information
+# Sidebar configuration
+st.sidebar.success("About project APSoS (Alarm System Prevention of Sepsis)")
+st.sidebar.image("./assets/tabelo.png", caption="Dashboard Sketch", use_container_width=True)
+
+on = st.toggle("Do you want to read this?", value=True)
+if on:
+    st.write("Let's go and read!")
+else: 
+    st.write("It's okay, take a break  ☕  ad come back later!")
+
+
+import streamlit as st
+col1, col2, col3 = st.columns(3)
+col1.metric("Temperature", "70 °F", "1.2 °F")
+col2.metric("Wind", "9 mph", "-8%")
+col3.metric("Humidity", "86%", "4%")
+
 
 st.write("# Welcome to PROHI Dashboard! 👋")
 
@@ -43,6 +59,35 @@ previous courses (*DSHI*: Data Science for Health Informatics), as well as
 the analytical skills to argue how and why specific techniques could
 enhance the problem domain related to the selected dataset.
 """
+
+
+
+#Dataframe
+import pandas as pd
+import streamlit as st
+from numpy.random import default_rng as rng
+
+df = pd.DataFrame(
+    rng(0).standard_normal((50, 20)), columns=("col %d" % i for i in range(20))
+)
+st.dataframe(df)
+
+#Line chart
+import pandas as pd
+import streamlit as st
+from numpy.random import default_rng as rng
+df = pd.DataFrame(rng(0).standard_normal((20, 3)), columns=["a", "b", "c"])
+st.line_chart(df)
+
+
+# code from Max, first attempt
+import streamlit as st
+sentiment_mapping = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+selected = st.radio("How do you like this dashboard, plz be generous 😁?", sentiment_mapping)
+if selected:
+    st.markdown(f"You selected {selected} star(s).")
+
+
 
 ### UNCOMMENT THE CODE BELOW TO SEE EXAMPLE OF INPUT WIDGETS
 
